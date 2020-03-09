@@ -46,7 +46,7 @@ def create_invoice():
     
 @app.route("/", methods=["POST"])
 def create_customer():
-    session = dbsession()
+    session = db.session()
     name = request.form['customer-name']
     address = request.form['address']
     email = request.form['email']
