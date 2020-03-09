@@ -9,7 +9,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker, relationship
 
 app = Flask("lycaeum")
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres:///invoices'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgres://jtstyzkkutlpps:39d8ba386b81b899d0d0138ecd33adf179191f5d695a6dc0928cc501a8444c84@ec2-18-210-51-239.compute-1.amazonaws.com:5432/deav3s6bbi6619'
 db = SQLAlchemy(app)
 
 
